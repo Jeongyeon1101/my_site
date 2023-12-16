@@ -68,15 +68,16 @@ nav {
   background-color: #ECEFF1;
 }
 
+
 .portfolio-text h3 {
   text-align: center;
   font-size: 32px;
   color: #000000;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  text-decoration: underline 5px #EC715F;
 }
 
 .portfolio-text p {
-  text-align: center;
   font-size: 16px;
   color: #000000;
   margin: 30px 0;
@@ -169,7 +170,7 @@ nav {
   margin: 10px 0;
 }
 
-.size {
+.feature-size {
   font-size: 60px;
   justify-content: center;
   display: flex;
@@ -178,6 +179,7 @@ nav {
 
 .profile {
   width: 100%;
+  background-color: #ECEFF1;
 }
 
 .profile-text h3 {
@@ -205,19 +207,89 @@ nav {
   display: flex;
 }
 
+.profile-item {
+  width: 512px;
+}
 
-
-
-
+.icon-image {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
 
 .contact {
   width: 100%;
-  height: 500px;
-  background-color: black;
+}
+
+.contact-text h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+  text-decoration: underline 5px #EC715F;
+}
+
+.contact-text p {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  margin: 30px 0;
+}
+
+.contact-content {
+  width: 800px;
+  justify-content: center;
+  margin: 90px auto;
+}
+
+.flex-contact {
+  display: flex;
+}
+
+.contact-item {
+  width: 400px;
+}
+
+.contact-item-text h5 {
+  font-size: 20px;
+}
+
+.contact-item-text:nth-child(2) h5 {
+  margin-top: 20px;
+}
+
+.contact-item-text p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.contact-item-icon {
+  margin-top: 5px;
+  display: flex;
+
+}
+
+.contact-size {
+  font-size: 50px;
+  justify-content: center;
+  margin-right: 20px;
 }
 
 .footer {
   width: 100%;
   height: 60px;
   background-color: #EC715F;
+}
+
+.footer-text {
+  text-align: center;
+  line-height: 60px;
+}
+
+.footer-text p {
+  font-size: 16px;
+  color: #FAFAFA;
 }
