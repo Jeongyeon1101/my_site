@@ -45,6 +45,7 @@ nav {
   width: 100%;
   height: 650px;
   background-image: url(image/mv.png);
+  display: block;
   background-size: cover;
   background-position: center;
 }
@@ -64,7 +65,6 @@ nav {
 
 .portfolio {
   width: 100%;
-  height: 500px;
   background-color: #ECEFF1;
 }
 
@@ -86,73 +86,129 @@ nav {
 .portfolio-content {
   width: 920px;
   justify-content: center;
-  margin: 90px 0;
+  margin: 90px auto;
 }
 
-.flex {
+.flex-portfolio {
   display: flex;
   flex-wrap: wrap;
 }
 
-.flex-item-1 {
+.portfolio-item {
   width: 300px;
   height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-item:nth-child(1) {
   background-image: url(image/sketch.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
-.flex-item-2 {
-  width: 300px;
-  height: 250px;
+.portfolio-item:nth-child(2) {
   background-image: url(image/websuku.png);
-  background-size: cover;
-  background-position: center;
 }
 
-.flex-item-3 {
-  width: 300px;
-  height: 250px;
+.portfolio-item:nth-child(3) {
   background-image: url(image/write.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
-.flex-item-4 {
-  width: 300px;
-  height: 250px;
+.portfolio-item:nth-child(4) {
   background-image: url(image/webcamp.png);
-  background-size: cover;
-  background-position: center;
 }
 
-.flex-item-5 {
-  width: 300px;
-  height: 250px;
+.portfolio-item:nth-child(5) {
   background-image: url(image/talk.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
-.flex-item-6 {
-  width: 300px;
-  height: 250px;
+.portfolio-item:nth-child(6) {
   background-image: url(image/webcamp-mother.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .feature {
   width: 100%;
-  height: 500px;
-  background-color: blue;
 }
+
+.feature-text h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+  text-decoration: underline 5px #EC715F;
+}
+
+.feature-text p {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  margin: 30px 0;
+
+}
+
+.feature-content {
+  width: 920px;
+  justify-content: center;
+  margin: 90px auto;
+}
+
+.flex-feature {
+  display: flex;
+}
+
+.feature-item {
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.feature-item h5{
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.size {
+  font-size: 60px;
+  justify-content: center;
+  display: flex;
+}
+
 
 .profile {
   width: 100%;
-  height: 500px;
-  background-color: pink;
 }
+
+.profile-text h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+  text-decoration: underline 5px #EC715F;
+}
+
+.profile-text p {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  margin: 30px 0;
+}
+
+.profile-content {
+  width: 1024px;
+  justify-content: center;
+  margin: 90px auto;
+}
+
+.flex-profile {
+  display: flex;
+}
+
+
+
+
+
 
 .contact {
   width: 100%;
